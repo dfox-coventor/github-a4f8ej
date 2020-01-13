@@ -4,14 +4,14 @@ import { RouterModule, Routes } from '@angular/router';
 
 import { SharedModule } from '../shared/shared.module';
 
-import { BenefitsFilesSearchComponent } from './benefits-search.component';
+import { BenefitsSearchComponent } from './benefits-search.component';
 
 const benefitsRoutes: Routes = [
-  { path: '', component: BenefitsFilesSearchComponent }
+  { path: '', component: BenefitsSearchComponent }
 ];
 
 @NgModule({
-  declarations: [BenefitsFilesSearchComponent],
+  declarations: [BenefitsSearchComponent],
   imports: [
     SharedModule,
     CommonModule,
